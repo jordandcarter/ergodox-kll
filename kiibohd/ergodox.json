@@ -1,10 +1,10 @@
 {
     "header": {
-        "Name": "ergodox",
+        "Name": "MDErgo1",
         "Layout": "Default",
         "Base": "Blank",
         "Version": "0.1",
-        "Author": "Howard M. Lewis Ship",
+        "Author": "HaaTa (Jacob Alexander) 2015",
         "KLL": "0.3c",
         "Date": "2015-09-12",
         "Generator": "KIICONF 0.2"
@@ -18,12 +18,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN3",
-                    "label": "\u01923"
+                    "key": "LCK1",
+                    "label": "LOCK-1"
                 },
                 "1": {
-                    "key": "LCK3",
-                    "label": "LOCK-3"
+                    "key": "F11",
+                    "label": "F11"
                 }
             }
         },
@@ -123,9 +123,17 @@
                     "key": "ESCAPE",
                     "label": "ESC"
                 },
+                "1": {
+                    "key": "#:None",
+                    "label": "NONE"
+                },
+                "2": {
+                    "key": "#:None",
+                    "label": "NONE"
+                },
                 "3": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
+                    "key": "#:None",
+                    "label": "NONE"
                 }
             }
         },
@@ -191,10 +199,6 @@
                 "0": {
                     "key": "W",
                     "label": "W"
-                },
-                "1": {
-                    "key": "UP",
-                    "label": "\u2191"
                 }
             }
         },
@@ -260,10 +264,6 @@
                 "0": {
                     "key": "D",
                     "label": "D"
-                },
-                "1": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
                 }
             }
         },
@@ -277,10 +277,6 @@
                 "0": {
                     "key": "S",
                     "label": "S"
-                },
-                "1": {
-                    "key": "DOWN",
-                    "label": "\u2193"
                 }
             }
         },
@@ -294,10 +290,6 @@
                 "0": {
                     "key": "A",
                     "label": "A"
-                },
-                "1": {
-                    "key": "LEFT",
-                    "label": "\u2190"
                 }
             }
         },
@@ -309,8 +301,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 }
             }
         },
@@ -348,8 +340,12 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "ENTER",
+                    "label": "\u21b5"
+                },
+                "3": {
+                    "key": "SPACE",
+                    "label": "[&nbsp;]"
                 }
             }
         },
@@ -363,10 +359,6 @@
                 "0": {
                     "key": "B",
                     "label": "B"
-                },
-                "1": {
-                    "key": "CONS:SCANNEXTTRACK",
-                    "label": "NEXT"
                 }
             }
         },
@@ -380,10 +372,6 @@
                 "0": {
                     "key": "V",
                     "label": "V"
-                },
-                "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
                 }
             }
         },
@@ -397,10 +385,6 @@
                 "0": {
                     "key": "C",
                     "label": "C"
-                },
-                "1": {
-                    "key": "CONS:SCANPREVIOUSTRACK",
-                    "label": "PREV"
                 }
             }
         },
@@ -414,10 +398,6 @@
                 "0": {
                     "key": "X",
                     "label": "X"
-                },
-                "1": {
-                    "key": "CONS:BRIGHTNESSINCREMENT",
-                    "label": "SCRN+"
                 }
             }
         },
@@ -431,10 +411,6 @@
                 "0": {
                     "key": "Z",
                     "label": "Z"
-                },
-                "1": {
-                    "key": "CONS:BRIGHTNESSDECREMENT",
-                    "label": "SCRN-"
                 }
             }
         },
@@ -474,6 +450,10 @@
                 "0": {
                     "key": "END",
                     "label": "END"
+                },
+                "3": {
+                    "key": "CONS:PAUSEPLAY",
+                    "label": "PL\/PS"
                 }
             }
         },
@@ -487,6 +467,10 @@
                 "0": {
                     "key": "DELETE",
                     "label": "DEL"
+                },
+                "3": {
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
@@ -500,6 +484,10 @@
                 "0": {
                     "key": "BACKSPACE",
                     "label": "BKSP"
+                },
+                "3": {
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -511,8 +499,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
+                    "key": "LGUI",
+                    "label": "LGUI"
                 }
             }
         },
@@ -524,8 +512,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LEFT",
-                    "label": "\u2190"
+                    "key": "ESCAPE",
+                    "label": "ESC"
                 }
             }
         },
@@ -537,8 +525,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
+                    "key": "BACKTICK",
+                    "label": "`"
                 }
             }
         },
@@ -550,8 +538,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKTICK",
-                    "label": "`"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -563,8 +551,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "FUN3",
+                    "label": "\u01923"
                 }
             }
         },
@@ -576,12 +564,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN3",
-                    "label": "\u01923"
+                    "key": "LCK2",
+                    "label": "LOCK-2"
                 },
                 "1": {
-                    "key": "LCK3",
-                    "label": "LOCK-3"
+                    "key": "F12",
+                    "label": "F12"
                 }
             }
         },
@@ -694,16 +682,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "EQUAL",
-                    "label": "="
+                    "key": "MINUS",
+                    "label": "-"
                 },
-                "1": {
-                    "key": "LCK2",
-                    "label": "LOCK-2"
-                },
-                "3": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
+                "2": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -761,10 +745,6 @@
                     "key": "I",
                     "label": "I"
                 },
-                "1": {
-                    "key": "UP",
-                    "label": "\u2191"
-                },
                 "2": {
                     "key": "P8",
                     "label": "P8"
@@ -799,10 +779,6 @@
                     "key": "P",
                     "label": "P"
                 },
-                "1": {
-                    "key": "F11",
-                    "label": "F11"
-                },
                 "2": {
                     "key": "P+",
                     "label": "P+"
@@ -817,8 +793,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "MINUS",
-                    "label": "-"
+                    "key": "BACKSLASH",
+                    "label": "\\"
+                },
+                "2": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -846,10 +826,6 @@
                     "key": "J",
                     "label": "J"
                 },
-                "1": {
-                    "key": "LEFT",
-                    "label": "\u2190"
-                },
                 "2": {
                     "key": "P4",
                     "label": "P4"
@@ -866,10 +842,6 @@
                 "0": {
                     "key": "K",
                     "label": "K"
-                },
-                "1": {
-                    "key": "DOWN",
-                    "label": "\u2193"
                 },
                 "2": {
                     "key": "P5",
@@ -888,10 +860,6 @@
                     "key": "L",
                     "label": "L"
                 },
-                "1": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
-                },
                 "2": {
                     "key": "P6",
                     "label": "P6"
@@ -909,10 +877,6 @@
                     "key": "SEMICOLON",
                     "label": ";"
                 },
-                "1": {
-                    "key": "F12",
-                    "label": "F12"
-                },
                 "2": {
                     "key": "P+",
                     "label": "P+"
@@ -929,6 +893,10 @@
                 "0": {
                     "key": "QUOTE",
                     "label": "'"
+                },
+                "2": {
+                    "key": "LGUI",
+                    "label": "LGUI"
                 }
             }
         },
@@ -940,8 +908,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RALT",
-                    "label": "RALT"
+                    "key": "PREV LAYER",
+                    "label": "PREV-\u0192"
                 }
             }
         },
@@ -953,8 +921,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RCTRL",
-                    "label": "RCTRL"
+                    "key": "NEXT LAYER",
+                    "label": "NEXT-\u0192"
                 }
             }
         },
@@ -966,8 +934,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "EQUAL",
+                    "label": "="
                 }
             }
         },
@@ -995,10 +963,6 @@
                     "key": "M",
                     "label": "M"
                 },
-                "1": {
-                    "key": "CONS:MUTE",
-                    "label": "MUTE"
-                },
                 "2": {
                     "key": "P1",
                     "label": "P1"
@@ -1015,10 +979,6 @@
                 "0": {
                     "key": "COMMA",
                     "label": ","
-                },
-                "1": {
-                    "key": "CONS:VOLUMEDOWN",
-                    "label": "VOL-"
                 },
                 "2": {
                     "key": "P2",
@@ -1037,10 +997,6 @@
                     "key": "PERIOD",
                     "label": "."
                 },
-                "1": {
-                    "key": "CONS:VOLUMEUP",
-                    "label": "VOL+"
-                },
                 "2": {
                     "key": "P3",
                     "label": "P3"
@@ -1057,10 +1013,6 @@
                 "0": {
                     "key": "SLASH",
                     "label": "\/"
-                },
-                "1": {
-                    "key": "F13",
-                    "label": "F13"
                 },
                 "2": {
                     "key": "PENTER",
@@ -1117,6 +1069,10 @@
                 "0": {
                     "key": "ENTER",
                     "label": "\u21b5"
+                },
+                "3": {
+                    "key": "CONS:SCANPREVIOUSTRACK",
+                    "label": "PREV"
                 }
             }
         },
@@ -1134,6 +1090,10 @@
                 "2": {
                     "key": "P0",
                     "label": "P0"
+                },
+                "3": {
+                    "key": "CONS:SCANNEXTTRACK",
+                    "label": "NEXT"
                 }
             }
         },
@@ -1191,10 +1151,6 @@
                     "key": "RIGHT",
                     "label": "\u2192"
                 },
-                "1": {
-                    "key": "F14",
-                    "label": "F14"
-                },
                 "2": {
                     "key": "PENTER",
                     "label": "P\u21b5"
@@ -1211,6 +1167,10 @@
                 "0": {
                     "key": "RGUI",
                     "label": "RGUI"
+                },
+                "3": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         }
